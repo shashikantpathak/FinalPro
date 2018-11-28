@@ -18,7 +18,7 @@ const helmet=require('helmet');
 
 container.resolve(function(users,_,admin,home,group,results,privatechat,profile,interest,news){
     mongoose.Promise=global.Promise;
-    mongoose.connect('mongodb://admin:password00@ds145563.mlab.com:45563/node-functions-apps',{useNewUrlParser:true});
+    mongoose.connect('',{useNewUrlParser:true});
     // mongoose.connect(process.env.MONGODB_URI,{useNewUrlParser:true});
    
     const app=SetExpress();

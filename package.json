@@ -1,0 +1,61 @@
+{
+  "name": "myapp",
+  "version": "0.0.1",
+  "description": "Simple Node.js App with  minnimum features implemented",
+  "main": "server.js",
+  "engines": {
+    "node":"7.10.1",
+    "npm":"4.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js",
+    "dev":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashikantpathak/FinalPro.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "AWS",
+    "Heruku",
+    "MongoDB",
+    "Mlab",
+    "EJS"
+  ],
+  "author": "Shashikant Pathak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shashikantpathak/FinalPro/issues"
+  },
+  "homepage": "https://github.com/shashikantpathak/FinalPro#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "aws-sdk": "^2.332.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "dependable": "^1.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.3",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "formidable": "^1.2.1",
+    "helmet": "^3.14.0",
+    "install": "^0.12.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.2",
+    "multer": "^1.4.0",
+    "multer-s3": "^2.7.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.1.1"
+  }
+}

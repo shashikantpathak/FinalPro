@@ -1,0 +1,10 @@
+module.exports=function(){
+    return{
+        SetRouting:function(router){
+             router.get('/guardian-news',this.news);
+        },
+        news:function(req,res){
+            res.render('news/guardian',{title:'Social-Guardian_News',user:req.user});
+        }
+    }
+}
